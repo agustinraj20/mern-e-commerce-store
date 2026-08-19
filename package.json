@@ -1,18 +1,16 @@
-
 {
   "name": "mern-e-commerce",
   "version": "1.0.0",
   "description": "MERN Stack E-Commerce Project",
-  "main": "backend/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "backend": "nodemon backend/index.js",
     "frontend": "npm run dev --prefix frontend",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "start": "node backend/index.js"
+    "dev": "concurrently \"npm run frontend\" \"npm run backend"
   },
   "keywords": [],
-  "author": "Agustin Raj",
+  "author": "HuXn WebDev",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -32,4 +30,3 @@
     "nodemon": "^3.1.14"
   }
 }
-
